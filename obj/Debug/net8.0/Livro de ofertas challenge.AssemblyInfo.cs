@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Livro de ofertas challenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d2025a02afc382c2b0c70495c72ee7ed4981f4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Livro de ofertas challenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Livro de ofertas challenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
