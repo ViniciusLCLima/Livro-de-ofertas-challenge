@@ -1,0 +1,14 @@
+C:\Users\Leite Lima\Desktop\Lab Visual Studio\Livro de ofertas challenge\obj\Debug\net8.0\Livro de ofertas challenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leite Lima\Desktop\Lab Visual Studio\Livro de ofertas challenge\obj\Debug\net8.0\Livro de ofertas challenge.AssemblyInfoInputs.cache
+C:\Users\Leite Lima\Desktop\Lab Visual Studio\Livro de ofertas challenge\obj\Debug\net8.0\Livro de ofertas challenge.AssemblyInfo.cs
+C:\Users\Leite Lima\Desktop\Lab Visual Studio\Livro de ofertas challenge\obj\Debug\net8.0\Livro de ofertas challenge.csproj.CoreCompileInputs.cache
+C:\Users\Leite Lima\Desktop\Lab Visual Studio\Livro de ofertas challenge\bin\Debug\net8.0\Livro de ofertas challenge.exe
+C:\Users\Leite Lima\Desktop\Lab Visual Studio\Livro de ofertas challenge\bin\Debug\net8.0\Livro de ofertas challenge.deps.json
+C:\Users\Leite Lima\Desktop\Lab Visual Studio\Livro de ofertas challenge\bin\Debug\net8.0\Livro de ofertas challenge.runtimeconfig.json
+C:\Users\Leite Lima\Desktop\Lab Visual Studio\Livro de ofertas challenge\bin\Debug\net8.0\Livro de ofertas challenge.dll
+C:\Users\Leite Lima\Desktop\Lab Visual Studio\Livro de ofertas challenge\bin\Debug\net8.0\Livro de ofertas challenge.pdb
+C:\Users\Leite Lima\Desktop\Lab Visual Studio\Livro de ofertas challenge\obj\Debug\net8.0\Livro de ofertas challenge.dll
+C:\Users\Leite Lima\Desktop\Lab Visual Studio\Livro de ofertas challenge\obj\Debug\net8.0\refint\Livro de ofertas challenge.dll
+C:\Users\Leite Lima\Desktop\Lab Visual Studio\Livro de ofertas challenge\obj\Debug\net8.0\Livro de ofertas challenge.pdb
+C:\Users\Leite Lima\Desktop\Lab Visual Studio\Livro de ofertas challenge\obj\Debug\net8.0\Livro de ofertas challenge.genruntimeconfig.cache
+C:\Users\Leite Lima\Desktop\Lab Visual Studio\Livro de ofertas challenge\obj\Debug\net8.0\ref\Livro de ofertas challenge.dll
