@@ -12,8 +12,8 @@ namespace com.offer.book{
 
         public void update(string msg){
             string[] splittedMsg = msg.Split(",");
-            int pos = Int32.Parse(splittedMsg[1]);
-            switch(splittedMsg[0]){
+            int pos = Int32.Parse(splittedMsg[0]);
+            switch(splittedMsg[1]){
                 case "0":
                     this.insert(pos, float.Parse(splittedMsg[2]), Int32.Parse(splittedMsg[3]));
                     break;
@@ -28,32 +28,44 @@ namespace com.offer.book{
 
         public void insert(int pos, float val, int qty){
             int newSize = size + 1;
+            int elemIdx = pos - 1;
             Offer newOffer = new Offer(val, qty);
-            offers.Add(pos == size ? newOffer : null);
-            for(int i = newSize; i>pos; i--){
-                offers[i] = offers[i-1];
+            if (pos == newSize) {
+                offers.Add(newOffer);
+            } else {
+                offers.Add(offers[size-1]);
+                for(int i = newSize - 1; i>elemIdx; i--){
+                    offers[i] = offers[i-1];
+                }
+                offers[pos-1] = newOffer;
             }
-            offers[pos] = newOffer;
             size = newSize;
         }
 
         public void modify(int pos, float val, int qty){
-            offers[pos].modify(val, qty);
+            int elemIdx = pos-1;
+            offers[elemIdx].modify(val, qty);
         }
 
         public void delete(int pos){    
             int newSize = size - 1; 
-            for(int i = pos; i<newSize; i++){   // *Poderia ser feito apenas com o método RemoveAt da classe List.
+            int elemIdx = pos - 1;
+            for(int i = elemIdx; i<newSize; i++){   // *Poderia ser feito apenas com o método RemoveAt da classe List.
                 offers[i] = offers[i+1];         // *Could have been done only with the RemoveAt method of List class
             }
-            offers.RemoveAt(size);
+            offers.RemoveAt(newSize);
             size = newSize;
         }
 
         public string toString(){
             string str = "";
+            int pos = 1;
             foreach (Offer offer in offers){
-                str += offer.toString() +"\n";
+                str += pos + "," + offer.toString();
+                if (pos != size){
+                    str+="\n";
+                }
+                pos++;
             }
 
             return str + "\\";
